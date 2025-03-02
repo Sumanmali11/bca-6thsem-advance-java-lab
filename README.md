@@ -29,15 +29,25 @@ This repository is designed to assist students in understanding and implementing
 
 The repository is organized as follows:
 bca-6thsem-advance-java-lab/
+
 ├── lab/
+
 │ ├── Chapter1_GUI_Swing
+
 │ └── ...
+
 ├── practise/
+
 │ ├── Chapter1_GUI_Swing/
+
 │ │ ├── 
+
 │ │ └── ...
+
 │ └── ...
+
 ├── README.md
+
 └── LICENSE
 
 ---
@@ -67,7 +77,7 @@ The `practise/` directory contains sample code for various Advanced Java topics.
 
 1. **Clone the Repository**:
     ```bash
-   git clone https://github.com/your-username/Advanced-Java-BCA-6th-Sem.git
+   git clone https://github.com/Sumanmali11/bca-6thsem-advance-java-lab
 2. **Navigate to the Desired Directory**:
    For lab reports, go to lab/.
    For practise exercises, go to practise/.
