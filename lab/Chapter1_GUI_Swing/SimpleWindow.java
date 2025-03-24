@@ -1,4 +1,3 @@
-
 // Import the necessary Swing library for GUI components
 import javax.swing.*;
 
