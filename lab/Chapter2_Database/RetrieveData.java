@@ -12,7 +12,8 @@ public class RetrieveData {
             ResultSet result = statement.executeQuery(sql);
 
             while (result.next()) {
-                System.out.println("ID: " + result.getInt("id") + ", Name: " + result.getString("name") + ", Age: "
+                System.out.println("ID: " + result.getInt("id") + ", Name: " +
+                        result.getString("name") + ", Age: "
                         + result.getInt("age"));
 
             }
