@@ -13,4 +13,9 @@ public class HelloImpl extends UnicastRemoteObject implements Hello {
     public String sayHi() {
         return "Hi from the remote object!";
     }
+
+    public String sum(int a, int b) {
+        int temp = a + b;
+        return "The sum of numbers are: " + temp;
+    }
 }
