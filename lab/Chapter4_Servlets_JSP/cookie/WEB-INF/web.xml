@@ -1,0 +1,11 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" 
+         version="5.0">
+  <servlet>
+    <servlet-name>CookieExample</servlet-name>
+    <servlet-class>CookieExample</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CookieExample</servlet-name>
+    <url-pattern>/cookie</url-pattern>
+  </servlet-mapping>
+</web-app>
