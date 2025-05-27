@@ -1,0 +1,11 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" 
+         version="5.0">
+  <servlet>
+    <servlet-name>DbAcess</servlet-name>
+    <servlet-class>DbAcess</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DbAcess</servlet-name>
+    <url-pattern>/result</url-pattern>
+  </servlet-mapping>
+</web-app>
